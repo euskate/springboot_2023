@@ -84,6 +84,13 @@
 
 <br>
 
+# test12 : [Spring Boot 2.7.17 Gradle + WAR + Thymeleaf + MariaDB + Mybatis + Lombok + Spring Security 5.7.11](#12)
+
+###
+
+<br>
+
+
 <br><br><hr><br><br>
 
 <div id="01"></div>
@@ -218,4 +225,12 @@ POM은 이름 그대로 프로젝트 정보
 
 # 11. Spring Boot 2.7.17 Gradle + WAR + Thymeleaf + MariaDB + JPA + JWT + OAuth + Lombok + Spring Security 5.7.11 - test11
 
-### 
+##
+
+<div id="12"></div>
+
+# 12. Spring Boot 2.7.17 Gradle + WAR + Thymeleaf + MariaDB + Mybatis + Lombok + Spring Security 5.7.11 - test12
+
+##
+
+<br><hr><br>
