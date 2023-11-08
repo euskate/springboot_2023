@@ -74,7 +74,7 @@ public class ExamController {
         return "exam/sample5";
     }
 
-    @PostMapping
+    @PostMapping("/test5")
     public String checkBook(Model model, @Valid Book book, BindingResult bindingResult){
         if(bindingResult.hasErrors()){
             return "exam/sample5 :: #form";
