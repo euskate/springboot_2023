@@ -7,7 +7,7 @@
     <select id="readBookAll" resultType="com.shop.entity.Book">
         select * from book
     </select>
-    <select id="readBookAll" resultType="com.shop.entity.Book">
+    <select id="readBook" resultType="com.shop.entity.Book">
         select * from book where seq = #{seq}
     </select>
 </mapper>

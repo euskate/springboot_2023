@@ -103,7 +103,7 @@
                 type: "POST",
                 cache: false
             }).done(function (fragment) {
-                if ($(fragment).find($("#form").prevObject["0"].length > 0)) {
+                if ($(fragment).find($("#form").prevObject[0].length > 0)) {
                     $("#form").replaceWith(fragment);
                 } else {
                     $("#list").replaceWith(fragment);
