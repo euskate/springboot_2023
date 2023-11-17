@@ -48,6 +48,24 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li sec:authorize="isAnonymous()"> <!-- 1. 로그인 중이 아니면-->
+                                    <a href="/members/join" class="text-decoration-none">회원가입</a> |
+                                    <a href="/member/login" class="text-decoration-none">로그인</a>
+                                </li>
+                                <li sec:authorize="isAuthenticated()"> <!-- 1. 로그인 중이면 -->
+                                    <span sec:authorize="hasRole('USER')"> <!-- 2 -->
+                                <a href="/member/mypage" class="text-decoration-none"> 마이 페이지 | </a>
+                            </span>
+                                    <span sec:authorize="hasRole('ADMIN')"> <!-- 2 -->
+                                <a href="/admin/" class="text-decoration-none"> 관리자 | </a>
+                            </span>
+                                    <a href="/member/logout" class="text-decoration-none"> 로그아웃 | </a>
+                                    <span>홍길동</span>님 <!-- 3 -->
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
                 <!-- Page content-->
@@ -60,10 +78,10 @@
                             </span>
                             <span sec:authorize="isAuthenticated()"> <!-- 1. 로그인 중이면 -->
                                 <span sec:authorize="hasRole('USER')"> <!-- 2 -->
-                                    <a href="/members/my-page" class="text-decoration-none"> 마이 페이지 | </a>
+                                    <a href="/member/mypage" class="text-decoration-none"> 마이 페이지 | </a>
                                 </span>
                                 <span sec:authorize="hasRole('ADMIN')"> <!-- 2 -->
-                                    <a href="/members/my-page" class="text-decoration-none"> 관리자 | </a>
+                                    <a href="/admin/" class="text-decoration-none"> 관리자 | </a>
                                 </span>
                                 <a href="/member/logout" class="text-decoration-none"> 로그아웃 | </a>
                                 <span>홍길동</span>님 <!-- 3 -->
