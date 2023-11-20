@@ -60,13 +60,13 @@
 
 <br>
 
-# test08 :  [Spring Boot 2.7.17 Gradle + WAR + FreeMarker + MariaDB + Mybatis + Lombok + Spring Security 5.7.11](#08)
+# test08 :  [Spring Boot 2.7.17 Maven + WAR + FreeMarker + MariaDB + Jpa + Lombok] (#08)
 
 ### 
 
 <br>
 
-# test09 : [Spring Boot 2.7.17 Gradle + WAR + Jsp + MariaDB + JPA + Lombok + Spring Security 5.7.11](#09)
+# test09 : [Spring Boot 2.7.17 Maven + WAR + Mustache + MariaDB + JPA + Lombok + webjars](#09)
 
 ### 
 
@@ -201,13 +201,13 @@ POM은 이름 그대로 프로젝트 정보
 
 <div id="08"></div>
 
-# 08. Spring Boot 2.7.17 Gradle + WAR + FreeMarker + MariaDB + Mybatis + Lombok + Spring Security 5.7.11 - test08
+# 08. Spring Boot 2.7.17 Maven + WAR + FreeMarker + MariaDB + JPA + Lombok - test08
 
 <br><hr><br>
 
 <div id="09"></div>
 
-# 09. Spring Boot 2.7.17 Gradle + WAR + Jsp + MariaDB + JPA + Lombok + Spring Security 5.7.11 - test09
+# 09. Spring Boot 2.7.17 Maven + WAR + Mustache + MariaDB + JPA + Lombok + webjars - test09
 
 ## 09-01. 
 
